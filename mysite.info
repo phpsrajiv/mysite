@@ -1,0 +1,79 @@
+; Packaging information for mysite
+name = "MySite"
+description = ""
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Administration
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = module_filter
+; Chaos tool suite
+dependencies[] = ctools
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+; Development
+dependencies[] = profiler_builder
+dependencies[] = profiler_builder_extras
+; Domain Access
+dependencies[] = domain
+dependencies[] = domain_alias
+dependencies[] = domain_conf
+dependencies[] = domain_nav
+dependencies[] = domain_settings
+; Fields
+dependencies[] = link
+; Media
+dependencies[] = file_entity
+dependencies[] = media
+; Other
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = libraries
+dependencies[] = pathauto
+dependencies[] = strongarm
+dependencies[] = token
+; Panels
+dependencies[] = panels
+; Rules
+dependencies[] = rules
+; SEO
+dependencies[] = metatag
+; User interface
+dependencies[] = jquery_update
+dependencies[] = wysiwyg
+; Views
+dependencies[] = views
+; Features
+dependencies[] = features
+
